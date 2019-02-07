@@ -1,0 +1,13 @@
+{
+  "name": "js-test-project-jest",
+  "version": "1.0.0",
+  "description": "A simple project with a single failing test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  }
+}
