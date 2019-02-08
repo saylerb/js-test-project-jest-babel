@@ -1,5 +1,5 @@
-const hello = require("../src/sayHello");
+import sayHello from "../src/sayHello";
 
 test("test it fails", () => {
-  expect(hello()).toEqual("what");
+  expect(sayHello()).toEqual("what");
 })
