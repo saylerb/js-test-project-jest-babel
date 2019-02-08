@@ -1,3 +1,5 @@
+const hello = require("../src/sayHello");
+
 test("test it fails", () => {
-  expect(true).toBeFalsy();
+  expect(hello()).toEqual("what");
 })
